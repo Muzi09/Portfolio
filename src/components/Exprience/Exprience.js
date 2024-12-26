@@ -59,14 +59,17 @@ const Exprience = (props) => {
                 </p>
               </li>
               <li className="col:text-center col:mt-[10px]">
-                <Link
-                  to={exprience.link}
+                <a
+                  href={exprience.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center"
                 >
-                  <i className="ti-arrow-right transition mr-7 text-[16px] col:mr-[5px]"></i>
                   Go to website
-                </Link>
+                  <i className="ti-arrow-right transition ml-4 mt-1 text-[16px] col:mr-[5px]"></i>
+                </a>
               </li>
+
             </ul>
           ))}
         </div>

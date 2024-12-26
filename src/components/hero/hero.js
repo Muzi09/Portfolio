@@ -14,11 +14,11 @@ import shape2 from '../../images/slider/line-2.png'
 
 const Hero = () => {
     return (
-        <section className="static-hero bg-[#131313] h-[940px] xl:h-[900px] lg:h-[650px] md:h-[950px] sm:h-[890px] col:h-[800px]  relative z-40 overflow-hidden">
+        <section className="static-hero bg-[#131313] h-[110vh]  relative z-40 overflow-hidden">
             <div className="flex items-start justify-center md:justify-start md:pt-[150px] md:pb-[100px] flex-col w-full h-full bg-cover bg-center  text-left z-50">
                 <div className="wraper">
                     <div className="flex-1">
-                        <div className="w-[660px] lg:w-[470px]  md:w-full  md:text-center">
+                        <div className="w-[660px] lg:w-[470px]   md:w-full  md:text-center">
                             <h2 className="text-white text-[90px] capitalize font-bold leading-[100px] mb-[10px]  lg:text-[65px] lg:mb-[10px] lg:leading-[75px] md:text-[45px] md:leading-[45px]  col:text-[35px] col:leading-[35px] col:mb-[0px]">
                                 <span className="block text-[60px] text-[#FFE600] lg:text-[45px] md:text-[35px] col:text-[35px] col:leading-[35px] col:mb-[0px]">Hello,</span>
                                 I am Muzammil</h2>

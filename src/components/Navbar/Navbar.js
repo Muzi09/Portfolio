@@ -18,4 +18,4 @@ export default function Navbar(props) {
         <Header hclass={props.hclass} Logo={props.Logo} topbarNone={props.topbarNone} />
     </div>
   ); 
-}
+} 

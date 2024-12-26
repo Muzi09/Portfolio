@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import Logo from '../../images/logo.png'
-import cv from '../../images/cv.jpg'
+import cv from '../../images/Muzammil.pdf'
 
 
 const Header = (props) => {
@@ -18,16 +18,16 @@ const Header = (props) => {
             <h1 className="hidden">section heading hidden</h1>
             <div className="wraper">
                 <div className="flex items-center justify-between">
-                     <MobileMenu/>
+                    <MobileMenu />
                     <div className="w-[195px] md:w-[280px] sm:w-[200px] col:w-[50px]">
                         {/* <Link className="text-[45px] col:text-[25px] font-bold flex items-center md:justify-center text-white" to="/">
                             <img className=" rounded-[50%] mr-[10px] " src={Logo} alt=""/>Elito.</Link> */}
                     </div>
                     <ul className="md:hidden">
                         <li className="relative inline-block group">
-                            <Link activeClass="active" to="home" spy={true} smooth={true}  duration={500} className="relative text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
+                            <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} className="relative text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
                     before:absolute before:left-0 before:bottom-0 before:w-full before:h-[4px] before:content 
-                    before:opacity-1 before:visible before:transition-all before:rounded-[3px]
+                    before:opacity-1 before:visible before:transition-all before:rounded-[3px] mx-3
                     ">Home</Link>
                             {/* <ul className="absolute w-[240px]  left-0 top-[110%] p-[20px] z-[111]  bg-[#fff] shadow-[#3e419f17]  transition-all  opacity-0 invisible
                     group-hover:opacity-100  group-hover:top-full group-hover:visible">
@@ -49,36 +49,40 @@ const Header = (props) => {
                             </ul> */}
                         </li>
                         <li className="relative inline-block">
-                            <Link activeClass="active" to="about" spy={true} smooth={true}  duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
+                            <Link activeClass="active" to="about" spy={true} smooth={true} duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
                     before:absolute before:left-0 before:bottom-0 before:w-full before:h-[4px] before:content 
-                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
+                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px] mx-3
                      hover:before:opacity-100 hover:before:visible
                     ">Skills</Link>
                         </li>
                         <li className="relative inline-block group">
-                            <Link activeClass="active" to="service" spy={true} smooth={true}  duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
+                            <Link activeClass="active" to="service" spy={true} smooth={true} duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
                     before:absolute before:left-0 before:bottom-0 before:w-full before:h-[4px] before:content 
-                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
+                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px] mx-3
                      hover:before:opacity-100 hover:before:visible
                     ">Services</Link> </li>
                         <li className="relative inline-block group">
-                            <Link activeClass="active" to="portfolio" spy={true} smooth={true}  duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
+                            <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
                     before:absolute before:left-0 before:bottom-0 before:w-full before:h-[4px] before:content 
-                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
+                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px] mx-3
                      hover:before:opacity-100 hover:before:visible
                     ">Projects</Link></li>
-                    <li className="relative inline-block">
-                            <Link activeClass="active" to="contact" spy={true} smooth={true}  duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
+                        <li className="relative inline-block">
+                            <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} className="relative group text-[16px] lg:text-[14px] py-[35px] xl:py-[30px] px-[20px] xl:px-[6px] text-white block capitalize font-base-font font-medium
                     before:absolute before:left-0 before:bottom-0 before:w-full before:h-[4px] before:content 
-                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px]
+                    before:opacity-0 before:invisible before:transition-all before:rounded-[3px] mx-3
                      hover:before:opacity-100 hover:before:visible
                     ">Contact</Link>
                         </li>
                     </ul>
-                    <a className="theme-btn col:w-50px" download="My Cv" href={cv}>
-                        <img className="hidden overflow-hidden opacity-0" alt="ImageName" src={cv}/>
-                            Resume
+                    <a
+                        className="theme-btn col:w-50px"
+                        href={cv}
+                        download="Muzammil.pdf"
+                    >
+                        Resume
                     </a>
+
 
                 </div>
             </div>
