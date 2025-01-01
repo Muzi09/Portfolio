@@ -16,16 +16,9 @@ const ContactForm = () => {
     };
 
     const submitHandler = async (e) => {
-        e.preventDefault();
+        e.preventDefault()
+
         
-        try {
-            const response = await fetch("http://localhost:5000/api/contact", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(forms),
-            });
-        
-            if (response.ok) {
                 setShowThankYou(true);
                 setForms({
                     name: "",
@@ -33,6 +26,15 @@ const ContactForm = () => {
                     phone: "",
                     message: "",
                 });
+        
+        try {
+            const response = await fetch("https://portfolio-be-xo74.onrender.com/api/contact", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(forms),
+            });
+        
+            if (response.ok) {
                 
                 // Hide the thank you message after 3 seconds
                 setTimeout(() => {
