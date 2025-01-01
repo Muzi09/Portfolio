@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-scroll'
 
-import hero1 from '../../images/slider/1.jpg'
+import hero1 from '../../images/pfp.jpeg'
 
 import icon1 from '../../images/icon/photoshop.svg'
 import icon2 from '../../images/icon/illustrator.svg'
@@ -29,7 +29,8 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute top-[53%] rounded-[50%] right-[200px] z-10 transform -translate-y-1/2 2xl:max-w-[500px] lg:max-w-[450px]  lg:top-[54%] 2xl:right-[80px] xl:right-[30px] lg:right-[50px] md:top-[74%] md:mx-auto md:right-auto md:left-1/2 md:-translate-x-1/2 sm:top-[75%] sm:w-[400px] sm:h-[400px] sm:left-1/2 sm:m-0 col:top-[75%] col:w-[300px] col:h-[300px]">
+            
+            {/* <div className="absolute top-[53%] rounded-[50%] right-[200px] z-10 transform -translate-y-1/2 2xl:max-w-[500px] lg:max-w-[450px]  lg:top-[54%] 2xl:right-[80px] xl:right-[30px] lg:right-[50px] md:top-[74%] md:mx-auto md:right-auto md:left-1/2 md:-translate-x-1/2 sm:top-[75%] sm:w-[400px] sm:h-[400px] sm:left-1/2 sm:m-0 col:top-[75%] col:w-[300px] col:h-[300px]">
                 <img className="rounded-[50%]" src={hero1} alt=""/>
                     <div className="absolute left-0 top-[20%] w-[110px] h-[110px] p-[20px] bg-white rounded-[25px] md:top-[15%] md:w-[95px] md:h-[95px] md:p-[15px] md:rounded-[15px] col:top-[10%] col:w-[70px] col:h-[70px] col:p-[15px] col:rounded-[15px] floating-item">
                         <img className="rounded-[0px] max-w-[100%]" src={icon1} alt=""/>
@@ -49,7 +50,7 @@ const Hero = () => {
                             <p className="text-[15px] mb-0 text-[#585858]">Complete Project</p>
                         </div>
                     </div>
-            </div>
+            </div> */}
 
             <div className="absolute top-0 left-0 -z-10">
                 <svg className=" fill-[#FF4155]" width="1038" height="938" viewBox="0 0 1038 938" fill="none">
