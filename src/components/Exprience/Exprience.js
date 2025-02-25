@@ -7,6 +7,14 @@ import logo4 from "../../images/work/4.png";
 
 const Expriences = [
   {
+    date: "Jan 2025 - Feb 2025",  
+    logo: logo2,
+    position: " Front-end Developer",
+    companyName: "Alit Technologies",
+    workFrom: "Indore",
+    link: "https://alittech.com/",
+  },
+  {
     date: "Aug 2023 - Dec 2024",
     logo: logo2,
     position: "Front-end Developer",

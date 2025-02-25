@@ -14,7 +14,7 @@ import shape2 from '../../images/slider/line-2.png'
 
 const Hero = () => {
     return (
-        <section className="static-hero bg-[#131313] h-[110vh]  relative z-40 overflow-hidden">
+        <section className="static-hero bg-[#131313] h-[110vh] px-2 relative z-40 overflow-hidden">
             <div className="flex items-start justify-center md:justify-start md:pt-[150px] md:pb-[100px] flex-col w-full h-full bg-cover bg-center  text-left z-50">
                 <div className="wraper">
                     <div className="flex-1">
